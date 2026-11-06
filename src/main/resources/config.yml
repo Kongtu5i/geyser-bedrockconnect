@@ -1,0 +1,92 @@
+# --------------------------------
+# GeyserConnect Configuration File
+# --------------------------------
+
+# Welcome message file, if file exists and is not empty this will show on join
+# This is loaded live so will update without a server restart
+welcome-file: welcome.txt
+language-file: languages/zh_CN.yml
+
+# Enabled hard max player limit
+# This will kick players if the server is full
+hard-player-limit: false
+
+# A global list of servers sent to all clients
+# Shown before personal favorites; players cannot edit these entries.
+# All bedrock: true entries are shown regardless of category. Restart to apply.
+# Use servers: [] for no public servers.
+servers:
+  - name: The Hive
+    address: 167.114.81.89
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/myXmr7B.png'
+
+  - name: CubeCraft
+    address: 94.23.159.81
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/f83ZeDS.jpg'
+
+  - name: Galaxite
+    address: 54.39.243.199
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/PEkLROT.jpg'
+
+  - name: Lifeboat Network
+    address: 63.143.54.198
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/GjsxhCI.png'
+
+  - name: Mineplex
+    address: 108.178.12.38
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/xB6yncS.png'
+
+  - name: MineVille
+    address: 52.234.130.255
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/yqrfMhP.jpg'
+
+  - name: Pixel Paradise
+    address: 40.87.84.59
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/fXQdou8.jpg'
+
+  - name: Official Geyser Test Server
+    address: test.geysermc.org
+    port: 19132
+    bedrock: true
+    category: GEYSER
+    imageUrl: 'https://geysermc.org/android-chrome-192x192.png'
+
+custom-servers:
+  # Should custom servers be enabled for users
+  enabled: false
+
+  # Max amount of custom servers per user
+  max: 10
+
+  # Storage engine for custom servers
+  # Can be json, sqlite, mysql
+  storage-type: json
+
+  # Connection details for the mysql storage type
+  mysql:
+    user: "geyser_connect"
+    pass: ""
+    database: "geyser_connect"
+    host: "localhost"
+    port: 3306

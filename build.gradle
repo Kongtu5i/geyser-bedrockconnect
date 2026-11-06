@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.geysermc.extension.connect'
+version = '1.0.0-bedrock-i18n.4'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.opencollab.dev/main' }
+    maven {
+        url = 'https://oss.sonatype.org/content/repositories/snapshots'
+        mavenContent { snapshotsOnly() }
+    }
+    maven { url = 'https://s01.oss.sonatype.org/content/repositories/snapshots/' }
+    maven { url = 'https://jitpack.io' }
+}
+
+dependencies {
+    compileOnly(libs.bundles.geyser) {
+        exclude group: 'io.netty'
+        exclude group: 'io.netty.incubator'
+    }
+    compileOnly libs.yamlConfigurate
+    implementation libs.sqlite
+    implementation libs.mysql
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+    options.encoding = 'UTF-8'
+}
+
+jar {
+    archiveFileName = "${project.name}.jar"
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+    from('LICENSE') {
+        into 'META-INF'
+        rename { 'LICENSE-GeyserConnect' }
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

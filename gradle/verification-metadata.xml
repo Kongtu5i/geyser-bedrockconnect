@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='utf-8'?>
+<verification-metadata xmlns="https://schema.gradle.org/dependency-verification">
+  <configuration>
+    <verify-metadata>false</verify-metadata>
+    <verify-signatures>false</verify-signatures>
+  </configuration>
+  <components>
+    <component group="com.google.auto.service" name="auto-service-annotations" version="1.1.1">
+      <artifact name="auto-service-annotations-1.1.1.jar">
+        <sha256 value="16a76dd00a2650568447f5d6e3a9e2c809d9a42367d56b45215cfb89731f4d24" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.code.findbugs" name="jsr305" version="3.0.2">
+      <artifact name="jsr305-3.0.2.jar">
+        <sha256 value="766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.code.gson" name="gson" version="2.10.1">
+      <artifact name="gson-2.10.1.jar">
+        <sha256 value="4241c14a7727c34feea6507ec801318a3d4a90f070e4525681079fb94ee4c593" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.code.gson" name="gson" version="2.13.2">
+      <artifact name="gson-2.13.2.jar">
+        <sha256 value="dd0ce1b55a3ed2080cb70f9c655850cda86c206862310009dcb5e5c95265a5e0" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.errorprone" name="error_prone_annotations" version="2.41.0">
+      <artifact name="error_prone_annotations-2.41.0.jar">
+        <sha256 value="a56e782b5b50811ac204073a355a21d915a2107fce13ec711331ad036f660fcc" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.guava" name="failureaccess" version="1.0.1">
+      <artifact name="failureaccess-1.0.1.jar">
+        <sha256 value="a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.guava" name="guava" version="29.0-jre">
+      <artifact name="guava-29.0-jre.jar">
+        <sha256 value="b22c5fb66d61e7b9522531d04b2f915b5158e80aa0b40ee7282c8bfb07b0da25" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.guava" name="guava" version="31.0.1-jre">
+      <artifact name="guava-31.0.1-jre.jar">
+        <sha256 value="d5be94d65e87bd219fb3193ad1517baa55a3b88fc91d21cf735826ab5af087b9" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.guava" name="listenablefuture" version="9999.0-empty-to-avoid-conflict-with-guava">
+      <artifact name="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+        <sha256 value="b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.j2objc" name="j2objc-annotations" version="1.3">
+      <artifact name="j2objc-annotations-1.3.jar">
+        <sha256 value="21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.google.protobuf" name="protobuf-java" version="4.29.0">
+      <artifact name="protobuf-java-4.29.0.jar">
+        <sha256 value="16901851ebe5e89fe88aaad3c26866373695bc2e30627bb8932847e2f5fc2e76" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.modrinth.minotaur" name="Minotaur" version="2.8.10">
+      <artifact name="Minotaur-2.8.10.jar">
+        <sha256 value="64f273635da54855502596c094e4dadcfa9b081ca3495cc050cb7c7ada872b2a" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.mysql" name="mysql-connector-j" version="9.2.0">
+      <artifact name="mysql-connector-j-9.2.0.jar">
+        <sha256 value="7e9941bbdcca244d878ea95bfff788fd9ba6a65af757f24be6c632930d61c7ed" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx" name="natives" version="1.0.3">
+      <artifact name="natives-1.0.3.jar">
+        <sha256 value="bb86e95520a7877e602797f74ecbe9318228500d4f5ee380ecba43f54df888e2" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx.fastutil" name="fastutil-common" version="8.5.3">
+      <artifact name="fastutil-common-8.5.3.jar">
+        <sha256 value="d6f17bb3c6a2512c41ea78f533f9018b49199bae74ef9cb3d90a5e9b5801f938" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx.fastutil" name="fastutil-int-common" version="8.5.3">
+      <artifact name="fastutil-int-common-8.5.3.jar">
+        <sha256 value="843631cbd8b96b5f0a66c2e916ec8770ab15a317d79bc1a2cd79e9ed2b66648b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx.fastutil" name="fastutil-int-int-maps" version="8.5.3">
+      <artifact name="fastutil-int-int-maps-8.5.3.jar">
+        <sha256 value="52df12c8395db36947060efaabe7a1827d942b1e01140f2e7d7b3094522d8d5e" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx.fastutil" name="fastutil-int-object-maps" version="8.5.3">
+      <artifact name="fastutil-int-object-maps-8.5.3.jar">
+        <sha256 value="67488ac5ff4e9a821c42d9aa57d2e8f59dfd5d2a415ca8cbf2d6af01d5422816" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx.fastutil" name="fastutil-int-sets" version="8.5.3">
+      <artifact name="fastutil-int-sets-8.5.3.jar">
+        <sha256 value="e1288a27842cc6a7604d8243351879778f8a736e26038edb2c946b8db559343e" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx.fastutil" name="fastutil-object-common" version="8.5.3">
+      <artifact name="fastutil-object-common-8.5.3.jar">
+        <sha256 value="02242fa5fc72e571b8ec41b41eef173b256fc1f84867579db672e4774dab541f" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx.fastutil" name="fastutil-object-int-maps" version="8.5.3">
+      <artifact name="fastutil-object-int-maps-8.5.3.jar">
+        <sha256 value="b8fff44de02a05a6ae2eeb28f5ed9862cbd180ea9c6c6f413962f58e331c9ca0" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.nukkitx.fastutil" name="fastutil-object-sets" version="8.5.3">
+      <artifact name="fastutil-object-sets-8.5.3.jar">
+        <sha256 value="ba21454ed268d53c512b1f1ad52ed1e16fe28da3cea57ff0fa4ca957297a0070" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.squareup.okhttp3" name="okhttp" version="4.10.0">
+      <artifact name="okhttp-4.10.0.jar">
+        <sha256 value="7580f14fa1691206e37081ad3f92063b1603b328da0bb316f2fef02e0562e7ec" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="com.squareup.okio" name="okio-jvm" version="3.0.0">
+      <artifact name="okio-jvm-3.0.0.jar">
+        <sha256 value="be64a0cc1f28ea9cd5c970dd7e7557af72c808d738c495b397bf897c9921e907" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="dev.masecla" name="Modrinth4J" version="2.2.0">
+      <artifact name="Modrinth4J-2.2.0.jar">
+        <sha256 value="0cf08a420b92c31d5d1c8e0dc0ff78e53c32ea66ca94f60d878284fda5e294ff" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="dev.opencollab" name="libdatachannel-java" version="0.24.6.0-20261029.091642-10">
+      <artifact name="libdatachannel-java-0.24.6.0-20261029.091642-10.jar">
+        <sha256 value="ad657aa7d6827014505fba0d6b481ccb6991e34e7d631ed758ce9a9d915e142d" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="dev.opencollab" name="libdatachannel-java-arch-detect" version="0.24.6.0-20261029.091642-10">
+      <artifact name="libdatachannel-java-arch-detect-0.24.6.0-20261029.091642-10.jar">
+        <sha256 value="e19f0de999d89d7a1381d07dedd3bd8777a0f6c33f02a008b73eca8f505e93c2" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.airlift" name="aircompressor" version="2.0.3">
+      <artifact name="aircompressor-2.0.3.jar">
+        <sha256 value="b86bb66f610079e0bf790d62e2ff68853eb0dc4748a6d68ae28bce92b68094aa" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.leangen.geantyref" name="geantyref" version="1.3.16">
+      <artifact name="geantyref-1.3.16.jar">
+        <sha256 value="7f1d591092d5142b6aaa7cf59f94c4c74d57dbeef03b2f8262949f8f36bac6e3" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-buffer" version="4.2.7.Final">
+      <artifact name="netty-buffer-4.2.7.Final.jar">
+        <sha256 value="b81613c8ed22b1cc39eccf2a28bd0c1d4561fb2e5e542061617ef4ce1d228bf5" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-codec" version="4.1.101.Final">
+      <artifact name="netty-codec-4.1.101.Final.jar">
+        <sha256 value="982ebe55d12e5ba1a9f37a0d16d30a0baed22b9f67268fbeead3c23093864c81" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-codec" version="4.1.139.Final">
+      <artifact name="netty-codec-4.1.139.Final.jar">
+        <sha256 value="ad43f07219dfb757a87b9c2b4765002be478c5401971379954e3d182f285fe6b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-codec-base" version="4.2.7.Final">
+      <artifact name="netty-codec-base-4.2.7.Final.jar">
+        <sha256 value="6360415b7c87160afcde5e7d4946c35539b9f043e8166c91a7fff95cc6067d9f" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-codec-haproxy" version="4.1.101.Final">
+      <artifact name="netty-codec-haproxy-4.1.101.Final.jar">
+        <sha256 value="c1cf61a69bf2e32ce9a67cbb06f61b731b76f4abcf3d13b4f1443ee650fe3d46" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-codec-haproxy" version="4.2.7.Final">
+      <artifact name="netty-codec-haproxy-4.2.7.Final.jar">
+        <sha256 value="6f09d537914aa465891384c8a4cf0db977dd9009a0b73a81a050f0a6cbfa95f7" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-codec-http" version="4.1.139.Final">
+      <artifact name="netty-codec-http-4.1.139.Final.jar">
+        <sha256 value="627cfdac2cd5dbd8a33af85977fb81fa6b46f0c00389ab4c8677a415f0f85480" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-common" version="4.2.7.Final">
+      <artifact name="netty-common-4.2.7.Final.jar">
+        <sha256 value="2345bc0ed5843fa57aa49eba67529485c3a1d420fcf0429324c8220c7a80e9a6" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-handler" version="4.2.7.Final">
+      <artifact name="netty-handler-4.2.7.Final.jar">
+        <sha256 value="21d063409c12dbcec46d380c8856a0f7b6a5b68bb5f1d005eb065b4d64146cb3" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-resolver" version="4.2.7.Final">
+      <artifact name="netty-resolver-4.2.7.Final.jar">
+        <sha256 value="7e4d569867e6c08437fb21a220ea01c294b0e38f01149b683c895a1bcd928438" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-transport" version="4.2.7.Final">
+      <artifact name="netty-transport-4.2.7.Final.jar">
+        <sha256 value="aadc6fb05c14fb789368ca3f854721549c72f6c0d81798bbccf9de1bb716892b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-transport-classes-epoll" version="4.2.7.Final">
+      <artifact name="netty-transport-classes-epoll-4.2.7.Final.jar">
+        <sha256 value="4492948e6a7694398e5197cf15ed2e21d6662a739d010ae666fa276e7222853c" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-transport-classes-io_uring" version="4.2.7.Final">
+      <artifact name="netty-transport-classes-io_uring-4.2.7.Final.jar">
+        <sha256 value="ff966874c62f53ed072962f1bf5dbc49fddd4bd3c60bfc9a7e17ce34b39ac7af" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-transport-classes-kqueue" version="4.2.7.Final">
+      <artifact name="netty-transport-classes-kqueue-4.2.7.Final.jar">
+        <sha256 value="a3eb1c94ae1a6be9e1d1ec52c3f5c510a75b04b8ef1ea86b7e77b3f1287ae3cc" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-transport-native-epoll" version="4.2.7.Final">
+      <artifact name="netty-transport-native-epoll-4.2.7.Final-linux-aarch_64.jar">
+        <sha256 value="2f0c7309d7df48a88fb374c02cfb446e1a1e5fb597fb02d773c70ac07da2c268" origin="Recorded resolved artifact baseline" />
+      </artifact>
+      <artifact name="netty-transport-native-epoll-4.2.7.Final-linux-x86_64.jar">
+        <sha256 value="7f395c8fdbe6990f7664408b57d919042401b893178fcba48bebf1a61bf78618" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-transport-native-io_uring" version="4.2.7.Final">
+      <artifact name="netty-transport-native-io_uring-4.2.7.Final-linux-aarch_64.jar">
+        <sha256 value="84fc39dc1019f4a6c5244b1d79a9714cb67f045bbdae4fef26f4981e6f67adbe" origin="Recorded resolved artifact baseline" />
+      </artifact>
+      <artifact name="netty-transport-native-io_uring-4.2.7.Final-linux-x86_64.jar">
+        <sha256 value="c236509f55bf921666f0232efeb7563279b6cb460d9e4a36c4aba40d2217bf62" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-transport-native-kqueue" version="4.2.7.Final">
+      <artifact name="netty-transport-native-kqueue-4.2.7.Final-osx-x86_64.jar">
+        <sha256 value="a29c08b6895746aaca796e72a429bc705f40267feb35f75cd8fbbcd4de6de99f" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="io.netty" name="netty-transport-native-unix-common" version="4.2.7.Final">
+      <artifact name="netty-transport-native-unix-common-4.2.7.Final.jar">
+        <sha256 value="736703b3f6d127e182f5be888b6e15732b0c08d6634e00725352a6a9d19974b2" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.bytebuddy" name="byte-buddy" version="1.15.4">
+      <artifact name="byte-buddy-1.15.4.jar">
+        <sha256 value="4a683d83ff219f20d44f35ca302d821e0c6842e3fa8f9f1ee913eb16f49cec6c" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.bytebuddy" name="byte-buddy-agent" version="1.15.4">
+      <artifact name="byte-buddy-agent-1.15.4.jar">
+        <sha256 value="1d76defd159a564b9cb7a968d0dea27367b8b70ebde75a968e7ef1921bc75ee4" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.jodah" name="expiringmap" version="0.5.10">
+      <artifact name="expiringmap-0.5.10.jar">
+        <sha256 value="24c47d056e6c29ceb591cb6f54187668951ab695a0e14e19ab25ac1d9308f194" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.kyori" name="adventure-api" version="5.2.0">
+      <artifact name="adventure-api-5.2.0.jar">
+        <sha256 value="7e52fe7190be3e87b3b3f71712cfa12315fcd27109f302a7b440c12f01fae827" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.kyori" name="adventure-key" version="5.2.0">
+      <artifact name="adventure-key-5.2.0.jar">
+        <sha256 value="0184d173200e2eef8fbc791f622d1d58fd459f8930c616b5a4fe79e83eda6c55" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.kyori" name="adventure-text-serializer-commons" version="5.2.0">
+      <artifact name="adventure-text-serializer-commons-5.2.0.jar">
+        <sha256 value="64b3e45d93aa57f4da9b257d16c8f2172612d9e3312b061f4892fd426922d2c3" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.kyori" name="adventure-text-serializer-gson" version="5.2.0">
+      <artifact name="adventure-text-serializer-gson-5.2.0.jar">
+        <sha256 value="5b2ad1c8a65e7fa0811279b51a45d5fc574b6a6354097b545e4fdb5b68aaed73" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.kyori" name="adventure-text-serializer-json" version="5.2.0">
+      <artifact name="adventure-text-serializer-json-5.2.0.jar">
+        <sha256 value="adb5410006175b9aa6343bfadd0bd11c4a6955ee2abc1a58abe2a3fa6cbd9ab5" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.kyori" name="adventure-text-serializer-legacy" version="5.2.0">
+      <artifact name="adventure-text-serializer-legacy-5.2.0.jar">
+        <sha256 value="1231a0de417de66c59e2f2a3892ecca6b8d48621df6f1d9a2f81b01f57e328b7" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.kyori" name="adventure-text-serializer-plain" version="5.2.0">
+      <artifact name="adventure-text-serializer-plain-5.2.0.jar">
+        <sha256 value="f6424cc038a631b79cc4b74b6b353d5d007c99b38f9be482e0c2448a00eecd21" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.kyori" name="option" version="1.1.0">
+      <artifact name="option-1.1.0.jar">
+        <sha256 value="97b69b4b17dfe02217c9131ad342564cbc9aebd04c75eb689639b5f78fd4b11c" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.lenni0451.commons" name="gson" version="1.9.0">
+      <artifact name="gson-1.9.0.jar">
+        <sha256 value="5cb4fb360bd50ecfa595d954e27b914b64e41bc9e70c7cb9a17e84a6f1856777" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.lenni0451.commons" name="httpclient" version="1.9.0">
+      <artifact name="httpclient-1.9.0.jar">
+        <sha256 value="c7c01c4639ee890b69a443d135c3bd55aedf24e41e19189c2ad874a0ed429c3e" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="net.raphimc" name="MinecraftAuth" version="5.0.0">
+      <artifact name="MinecraftAuth-5.0.0.jar">
+        <sha256 value="7a1af91e850587ce052136e3c19de2c5ce5493255371668b87c75436a798d70d" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.apiguardian" name="apiguardian-api" version="1.1.2">
+      <artifact name="apiguardian-api-1.1.2.jar">
+        <sha256 value="b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.bitbucket.b_c" name="jose4j" version="0.9.6">
+      <artifact name="jose4j-0.9.6.jar">
+        <sha256 value="7314af50cde9c99e8eaf43eee617a23edcc6bb43036221064355094999d837ef" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.bouncycastle" name="bcpkix-jdk18on" version="1.85">
+      <artifact name="bcpkix-jdk18on-1.85.jar">
+        <sha256 value="c9f82b2d4e99c4bbdfccf684e52cc06ea06a0b567bfd0d08f9c5a3f417055996" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.bouncycastle" name="bcprov-jdk18on" version="1.85.2">
+      <artifact name="bcprov-jdk18on-1.85.2.jar">
+        <sha256 value="986b0fb92ec10e0c66b43e036ce0077e6150cfaecd1db9fb92b56672e157afe5" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.bouncycastle" name="bcutil-jdk18on" version="1.85">
+      <artifact name="bcutil-jdk18on-1.85.jar">
+        <sha256 value="590f55ed5d68529239898a4a5c4f730b6e37f45d1cfa3fbe51f8485abe32c42d" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.bstats" name="bstats-base" version="3.1.0">
+      <artifact name="bstats-base-3.1.0.jar">
+        <sha256 value="da0e51808cd8cc28bef3000e71cb4fa0b05e53931a83a7f9f4d3c402836f40a0" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.checkerframework" name="checker-qual" version="3.42.0">
+      <artifact name="checker-qual-3.42.0.jar">
+        <sha256 value="ccaedd33af0b7894d9f2f3b644f4d19e43928e32902e61ac4d10777830f5aac7" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.checkerframework" name="checker-qual" version="3.51.1">
+      <artifact name="checker-qual-3.51.1.jar">
+        <sha256 value="153aeffe56ca24f3a9b8b6c6ff813eace9620ccf35adfab91d491682e56cd5ce" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc" name="nbt" version="3.1.0.Final">
+      <artifact name="nbt-3.1.0.Final.jar">
+        <sha256 value="0c5a2be402bd09ab2a246ee478e3100027bacf7e948812378f291e81c6e48f6d" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil" name="core" version="8.5.15">
+      <artifact name="core-8.5.15.jar">
+        <sha256 value="daf6276eb4c0667fc5b5f6070ae08e9e48cc90a1c59d91fc76ebf726ff7970b3" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.commons" name="boolean-common" version="8.5.15">
+      <artifact name="boolean-common-8.5.15.jar">
+        <sha256 value="9e13fc993171b9951959bd33f256b77b477d821c3f95b21fcbf20ba24e074d94" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.commons" name="byte-common" version="8.5.15">
+      <artifact name="byte-common-8.5.15.jar">
+        <sha256 value="f50fb927feafb006670bf1389839d705b8288e007182e0f01226bec855ca6f87" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.commons" name="int-common" version="8.5.15">
+      <artifact name="int-common-8.5.15.jar">
+        <sha256 value="c4ad0f7723e886022029de4702336a3b41618b946d6194e8fa63790cbc2204fc" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.commons" name="long-common" version="8.5.15">
+      <artifact name="long-common-8.5.15.jar">
+        <sha256 value="0655ec4614d991ef55a023ad7a85de3a6b037d85386c297fc385caa59dca5986" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.commons" name="object-common" version="8.5.15">
+      <artifact name="object-common-8.5.15.jar">
+        <sha256 value="87b0010b07f26aad9668922bd818a3c09d625e7905871c92c1263ff3cda42515" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.commons" name="reference-common" version="8.5.15">
+      <artifact name="reference-common-8.5.15.jar">
+        <sha256 value="2197c69a6d70314cc866084bc36c87455ec61a31305a0cc03c54a89052d37e50" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="int-boolean-maps" version="8.5.15">
+      <artifact name="int-boolean-maps-8.5.15.jar">
+        <sha256 value="e0ccb4102fd134db3d9d26d69fcba28efd9216dcb086c13a2ec6da417ec18c29" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="int-byte-maps" version="8.5.15">
+      <artifact name="int-byte-maps-8.5.15.jar">
+        <sha256 value="6310b710f80c1f7f13aee184605d5fcaac55c91e15a8aa94fcccf06943e6cb9a" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="int-int-maps" version="8.5.15">
+      <artifact name="int-int-maps-8.5.15.jar">
+        <sha256 value="a06d0a6a805baec85610b1d645bf28306502ae39345e751ea53490e983f7b54e" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="int-long-maps" version="8.5.15">
+      <artifact name="int-long-maps-8.5.15.jar">
+        <sha256 value="ad979a0d26aaa643ded42ccb7918562fce74724315efee777173965ed3b92669" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="int-object-maps" version="8.5.15">
+      <artifact name="int-object-maps-8.5.15.jar">
+        <sha256 value="64465da2514b1eb7b19bbd7b03b1c72774f86a6b2e4f0cf39838d1d8041f16f1" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="long-object-maps" version="8.5.15">
+      <artifact name="long-object-maps-8.5.15.jar">
+        <sha256 value="778e354b463167986897140ffa49892eebbbc171e93810028da2f5d0ce7cba26" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="object-boolean-maps" version="8.5.15">
+      <artifact name="object-boolean-maps-8.5.15.jar">
+        <sha256 value="c5a9361ecaa5fffce9c106b7fac09ff5f29d5eefe77b6f9ba48a1a9d1d97c61b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="object-int-maps" version="8.5.15">
+      <artifact name="object-int-maps-8.5.15.jar">
+        <sha256 value="d646613c2cfe972f227873d1168fe9f8ada42bac1743ec0e7355ed683153267f" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="object-long-maps" version="8.5.15">
+      <artifact name="object-long-maps-8.5.15.jar">
+        <sha256 value="05c12f25248aba977b42e169806f5125563a97ed6bf8cb65181ce70eb5363407" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="object-object-maps" version="8.5.15">
+      <artifact name="object-object-maps-8.5.15.jar">
+        <sha256 value="99c41e2f050dfb6db17f96e1b6e4012261ca26a5358fb8bc7589623d3bce42b3" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.maps" name="reference-object-maps" version="8.5.15">
+      <artifact name="reference-object-maps-8.5.15.jar">
+        <sha256 value="46bce1e505ad03b8a8cf901eec1a9ad4f9b585e3aa0c193b772451adc51f8a1f" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.sets" name="boolean-sets" version="8.5.15">
+      <artifact name="boolean-sets-8.5.15.jar">
+        <sha256 value="702d5513390a20978571c8584beef5233245bb57fa5bf456c90b47a79e679a53" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.sets" name="byte-sets" version="8.5.15">
+      <artifact name="byte-sets-8.5.15.jar">
+        <sha256 value="973b895bf0650efcab38c8c3e4c7815b189056882571fea52d06d1c811a778a1" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.sets" name="int-sets" version="8.5.15">
+      <artifact name="int-sets-8.5.15.jar">
+        <sha256 value="ec39b2c9aa76fddf856da1aef800b03cb1540b17c3f2c0cd28cdf520bed90da7" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.sets" name="long-sets" version="8.5.15">
+      <artifact name="long-sets-8.5.15.jar">
+        <sha256 value="0d352d02875f40610b943f64456276975cd3e7a89746772f279a0887dec58370" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.sets" name="object-sets" version="8.5.15">
+      <artifact name="object-sets-8.5.15.jar">
+        <sha256 value="f25a0b237e8335441748ac6783d949954a62fd0be7924106c6be7bda2c249431" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.fastutil.sets" name="reference-sets" version="8.5.15">
+      <artifact name="reference-sets-8.5.15.jar">
+        <sha256 value="90bcddb6e9563cdfa128cc929d61735ca3e0d42380043f42d4df62737d26f58c" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.math" name="api" version="2.0">
+      <artifact name="api-2.0.jar">
+        <sha256 value="4348d532b11d033f1c6e11037fe3d045223878333d9e140c4f11bb3309b72083" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.math" name="immutable" version="2.0">
+      <artifact name="immutable-2.0.jar">
+        <sha256 value="6ada50be0ac66f4012b60ec9b0c7efe87f201ca989fd3d7963438a6bb6981ebf" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.netty" name="netty-external-signaling" version="2.0.0.CR6-20261030.131938-23">
+      <artifact name="netty-external-signaling-2.0.0.CR6-20261030.131938-23.jar">
+        <sha256 value="9458c3adf1553908152593da328536f89d977a53659a2339feaa662231e2b7ac" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.netty" name="netty-transport-common" version="1.1.0.CR4-SNAPSHOT">
+      <artifact name="netty-transport-common-1.1.0.CR4-SNAPSHOT.jar">
+        <sha256 value="ee5d228d675a2aa9c792b02a7f3e92888b5f50436df5e0891b40b73a7c2fb7e5" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.netty" name="netty-transport-common" version="2.0.0.CR6-SNAPSHOT">
+      <artifact name="netty-transport-common-2.0.0.CR6-SNAPSHOT.jar">
+        <sha256 value="d8de2ccfb2c6d1bcfa3d397803e3e8bcd92e392b88d5d952e6f28e0884c673e4" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.netty" name="netty-transport-nethernet" version="2.0.0.CR6-20261030.131938-23">
+      <artifact name="netty-transport-nethernet-2.0.0.CR6-20261030.131938-23.jar">
+        <sha256 value="f7f0edc8a1839b23476751fb1d71b67f8eab5124c5bd1e344fbe359fd33c3263" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.netty" name="netty-transport-raknet" version="1.1.0.CR4-SNAPSHOT">
+      <artifact name="netty-transport-raknet-1.1.0.CR4-SNAPSHOT.jar">
+        <sha256 value="030026c50a7796f29486e0c94719f8bd6737fe45589c2f2b68dabcf7f7c8ef49" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.netty" name="netty-transport-raknet" version="2.0.0.CR6-20261030.131938-23">
+      <artifact name="netty-transport-raknet-2.0.0.CR6-20261030.131938-23.jar">
+        <sha256 value="005f876f60b4d6aaf151d37e1e1f7b4444af1064ce1842622f2e75f6fb3e255b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.protocol" name="bedrock-codec" version="3.0.0.Beta15-20261026.210753-2">
+      <artifact name="bedrock-codec-3.0.0.Beta15-20261026.210753-2.jar">
+        <sha256 value="51ee1b3fd975bc7f04df71c5c69336e9d921d4cb424da9d671b269e7bdd5eadd" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.protocol" name="bedrock-connection" version="3.0.0.Beta15-20261026.210753-2">
+      <artifact name="bedrock-connection-3.0.0.Beta15-20261026.210753-2.jar">
+        <sha256 value="5b88f3f105af3bbd9e9e56df1b7d0965f32e58b954dbf9e654b044af6b25d65f" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.cloudburstmc.protocol" name="common" version="3.0.0.Beta15-20261026.210753-2">
+      <artifact name="common-3.0.0.Beta15-20261026.210753-2.jar">
+        <sha256 value="76800f92ebcaf058f3250acdca882831c2878996198bba49ba20c1baaec13785" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.api" name="base-api" version="1.0.3">
+      <artifact name="base-api-1.0.3.jar">
+        <sha256 value="803d6058508e9a770406927b4af7bb855e750aa3d7c5fe89864aac94f9db98f8" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.cumulus" name="cumulus" version="1.1.2">
+      <artifact name="cumulus-1.1.2.jar">
+        <sha256 value="2c2d806a782a92a4495269240f88573a452dcafa377ead3211231d3b3611a3b5" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.erosion" name="common" version="1.1-20240521.000109-3">
+      <artifact name="common-1.1-20240521.000109-3.jar">
+        <sha256 value="2b276b20ca0237542c3be9a806e0b38c515f8f93060eeb45dd9dd03bc1f69206" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.event" name="events" version="1.1-SNAPSHOT">
+      <artifact name="events-1.1-SNAPSHOT.jar">
+        <sha256 value="2d3530f40e64a7590e6f3129eb1edd2b4169793d397265c15d9709a248e60231" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.geyser" name="api" version="2.12.1-20261105.083747-17">
+      <artifact name="api-2.12.1-20261105.083747-17.jar">
+        <sha256 value="f6bed4f84b12c666b0963d48ec369edcaa624fb16ccda0e96989d1b1d3e51ce4" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.geyser" name="common" version="2.12.1-SNAPSHOT">
+      <artifact name="common-2.12.1-SNAPSHOT.jar">
+        <sha256 value="1a925f7c10bc5e6274af8fa345c6b61d32434a35b7b7d566a10cbaa0492098d8" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.geyser" name="core" version="2.12.1-20261105.083747-17">
+      <artifact name="core-2.12.1-20261105.083747-17.jar">
+        <sha256 value="e8e096702d31eb905dd56b8ed5bf8a0c25783d05c7e00036ebc2674185feec35" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.mcprotocollib" name="protocol" version="26.3-2">
+      <artifact name="protocol-26.3-2.jar">
+        <sha256 value="f35ee53371c68e01c2fb64393bfde1a7429f9e1866c1e2fc122dc2c1d9a664b1" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.geysermc.mcprotocollib" name="text-serializer-nbt" version="0.2.1">
+      <artifact name="text-serializer-nbt-0.2.1.jar">
+        <sha256 value="0f0c1fcb3587ab767408fe642fcace12ef321b278ebcab2d685aeb553f282c64" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.immutables" name="annotate" version="2.12.2">
+      <artifact name="annotate-2.12.2.jar">
+        <sha256 value="5d0dfbb9b504879a298326731a65c426a38a8b13c8a65e7d94af0f867a977acb" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.immutables" name="value-annotations" version="2.12.2">
+      <artifact name="value-annotations-2.12.2.jar">
+        <sha256 value="6ab333ab24bbb065107facef4c22a566b6e162709ec708b31b98f0cb5f51072c" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.incendo" name="cloud-core" version="2.1.0">
+      <artifact name="cloud-core-2.1.0.jar">
+        <sha256 value="65ee6ef052aff50904ae534a807d5cd36dc74a33b18aa173b77058eca05154d2" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.incendo" name="cloud-services" version="2.1.0">
+      <artifact name="cloud-services-2.1.0.jar">
+        <sha256 value="f660b3768142c8e10e15290827c33db8bae3a458faa6a5bbe7b30d86fa9a8e30" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.java-websocket" name="Java-WebSocket" version="1.5.1">
+      <artifact name="Java-WebSocket-1.5.1.jar">
+        <sha256 value="08e6e7cb637c9141f400f1937b2667b3674e0e02d3c5ab7553c44f27adecd76e" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.jetbrains" name="annotations" version="13.0">
+      <artifact name="annotations-13.0.jar">
+        <sha256 value="ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.jetbrains" name="annotations" version="24.0.0">
+      <artifact name="annotations-24.0.0.jar">
+        <sha256 value="ff112f54ce874b8ae899cfd68f0315d96c9f406a338b8eca80c76d10e2e5a2f7" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.jetbrains" name="annotations" version="26.1.0">
+      <artifact name="annotations-26.1.0.jar">
+        <sha256 value="ebc7aec252ed0c7d2d04c039d7f00e69f7b86b1f493c741d67b3ef31b986b054" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.jetbrains.kotlin" name="kotlin-stdlib" version="1.6.20">
+      <artifact name="kotlin-stdlib-1.6.20.jar">
+        <sha256 value="eeb51c2b67b26233fd81d0bc4f8044ec849718890905763ceffd84a31e2cb799" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.jetbrains.kotlin" name="kotlin-stdlib-common" version="1.6.20">
+      <artifact name="kotlin-stdlib-common-1.6.20.jar">
+        <sha256 value="8da40a2520d30dcb1012176fe93d24e82d08a3e346c37e0343b0fb6f64f6be01" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.jetbrains.kotlin" name="kotlin-stdlib-jdk7" version="1.5.31">
+      <artifact name="kotlin-stdlib-jdk7-1.5.31.jar">
+        <sha256 value="a25bf47353ce899d843cbddee516d621a73473e7fba97f8d0301e7b4aed7c15f" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.jetbrains.kotlin" name="kotlin-stdlib-jdk8" version="1.5.31">
+      <artifact name="kotlin-stdlib-jdk8-1.5.31.jar">
+        <sha256 value="b548f7767aacf029d2417e47440742bd6d3ebede19b60386e23554ce5c4c5fdc" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.jspecify" name="jspecify" version="1.0.0">
+      <artifact name="jspecify-1.0.0.jar">
+        <sha256 value="1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.junit.jupiter" name="junit-jupiter" version="5.11.4">
+      <artifact name="junit-jupiter-5.11.4.jar">
+        <sha256 value="aa880e4afba87d447357e4c1fc098c5cb1d200cb9403496c00d3b35a5bd0e8db" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.junit.jupiter" name="junit-jupiter-api" version="5.11.4">
+      <artifact name="junit-jupiter-api-5.11.4.jar">
+        <sha256 value="ab83ef9e51ac4597d59d26b4b58812129550e2f579a404c8af7d09f5ce5b4293" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.junit.jupiter" name="junit-jupiter-engine" version="5.11.4">
+      <artifact name="junit-jupiter-engine-5.11.4.jar">
+        <sha256 value="cdf8ac59f3fad774ca738ad03890950eeb91833ef0e8908753177edd26f1581c" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.junit.jupiter" name="junit-jupiter-params" version="5.11.4">
+      <artifact name="junit-jupiter-params-5.11.4.jar">
+        <sha256 value="02a6e015de7ce94ac7f256e7fa05b8091dea861fe79a555a7993313d0f6c7d96" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.junit.platform" name="junit-platform-commons" version="1.11.4">
+      <artifact name="junit-platform-commons-1.11.4.jar">
+        <sha256 value="9edd969b0d0670c54105bc91ae79bd1c6f503e12115faba82073b84c86bbc334" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.junit.platform" name="junit-platform-engine" version="1.11.4">
+      <artifact name="junit-platform-engine-1.11.4.jar">
+        <sha256 value="b1dd998f64f9acadc15966d9cd3d08074662677b3e390f0a38fcbf0bb4c72330" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.junit.platform" name="junit-platform-launcher" version="1.11.4">
+      <artifact name="junit-platform-launcher-1.11.4.jar">
+        <sha256 value="d7430bd029e7fcced53ee445e4d2d1a8a1e043ea4c4df43b6335a857f79761ae" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.lanternpowered" name="lmbda" version="2.0.0">
+      <artifact name="lmbda-2.0.0.jar">
+        <sha256 value="bfb98bf74610824bd56e10d825233a660eba33ba915cf947246257f503da75f3" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.mockito" name="mockito-core" version="5.14.2">
+      <artifact name="mockito-core-5.14.2.jar">
+        <sha256 value="2296141c1e1f2e1ae35c08d36a9ab4563ecd66e03533fe82630a764e7aa49182" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.objenesis" name="objenesis" version="3.3">
+      <artifact name="objenesis-3.3.jar">
+        <sha256 value="02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.opentest4j" name="opentest4j" version="1.3.0">
+      <artifact name="opentest4j-1.3.0.jar">
+        <sha256 value="48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.ow2.asm" name="asm" version="7.1">
+      <artifact name="asm-7.1.jar">
+        <sha256 value="4ab2fa2b6d2cc9ccb1eaa05ea329c407b47b13ed2915f62f8c4b8cc96258d4de" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.ow2.asm" name="asm" version="9.5">
+      <artifact name="asm-9.5.jar">
+        <sha256 value="b62e84b5980729751b0458c534cf1366f727542bb8d158621335682a460f0353" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.ow2.asm" name="asm-tree" version="9.5">
+      <artifact name="asm-tree-9.5.jar">
+        <sha256 value="3c33a648191079aeaeaeb7c19a49b153952f9e40fe86fbac5205554ddd9acd94" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.slf4j" name="slf4j-api" version="2.0.18">
+      <artifact name="slf4j-api-2.0.18.jar">
+        <sha256 value="44508fd1576500688c790b190acdd16fec4f8c79a3e0b900afd70503cf055f55" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.slf4j" name="slf4j-api" version="2.0.9">
+      <artifact name="slf4j-api-2.0.9.jar">
+        <sha256 value="0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.spongepowered" name="configurate-core" version="4.2.0-GeyserMC-SNAPSHOT">
+      <artifact name="configurate-core-4.2.0-GeyserMC-SNAPSHOT.jar">
+        <sha256 value="a918d620a8a30e68bcecd119e845b801bd96d3ebccff834fec4f8c9808f280f6" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.spongepowered" name="configurate-extra-interface" version="4.2.0-GeyserMC-20251111.004649-11">
+      <artifact name="configurate-extra-interface-4.2.0-GeyserMC-20251111.004649-11.jar">
+        <sha256 value="fc9434a4c1b6e316b65be13074a0377984efeac45cc9910d58b5894819c6bd0b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.spongepowered" name="configurate-yaml" version="4.2.0-GeyserMC-20251111.004649-11">
+      <artifact name="configurate-yaml-4.2.0-GeyserMC-20251111.004649-11.jar">
+        <sha256 value="9cc24476d690f1d7aa7d04d3e3ae116871f7312bf05606e51bab2961fa130c11" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.xerial" name="sqlite-jdbc" version="3.49.1.0">
+      <artifact name="sqlite-jdbc-3.49.1.0.jar">
+        <sha256 value="5c8609d2ca341deb8c6f71778974b5ba4995c7d32d7c7c89d9392a3e72c39291" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+    <component group="org.yaml" name="snakeyaml" version="2.2">
+      <artifact name="snakeyaml-2.2.jar">
+        <sha256 value="1467931448a0817696ae2805b7b8b20bfb082652bf9c4efaed528930dc49389b" origin="Recorded resolved artifact baseline" />
+      </artifact>
+    </component>
+  </components>
+</verification-metadata>

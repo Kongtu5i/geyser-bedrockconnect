@@ -1,0 +1,102 @@
+/*
+ * Copyright (c) 2019-2024 GeyserMC. http://geysermc.org
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @author GeyserMC
+ * @link https://github.com/GeyserMC/GeyserConnect
+ */
+
+package org.geysermc.extension.connect.storage;
+
+import com.google.gson.reflect.TypeToken;
+import org.geysermc.extension.connect.GeyserConnect;
+import org.geysermc.extension.connect.utils.Server;
+import org.geysermc.extension.connect.utils.ServerManager;
+import org.geysermc.extension.connect.utils.Utils;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class AbstractSQLStorageManager extends AbstractStorageManager {
+    protected Connection connection;
+
+    @Override
+    public void setupStorage() {
+        try {
+            connectToDatabase();
+
+            try (Statement createPlayersTable = connection.createStatement()) {
+                createPlayersTable.executeUpdate("CREATE TABLE IF NOT EXISTS players (xuid VARCHAR(32), servers TEXT, PRIMARY KEY(xuid));");
+            }
+        } catch (ClassNotFoundException | SQLException e) {
+            throw new StorageException("Database initialization failed",e);
+        }
+    }
+
+    protected abstract void connectToDatabase() throws ClassNotFoundException, SQLException;
+
+    @Override
+    public void closeStorage() {
+        try {
+            if(connection != null) connection.close();
+        } catch (SQLException exception) {
+            GeyserConnect.instance().logger().error(org.geysermc.extension.connect.GeyserConnect.tr("error.database-close"), exception);
+        }
+    }
+
+    @Override
+    public void saveServers(org.geysermc.api.connection.Connection session) {
+        // replace into works on MySQL and SQLite
+        try (PreparedStatement updatePlayersServers = connection.prepareStatement("REPLACE INTO players(xuid, servers) VALUES(?, ?)")) {
+            updatePlayersServers.setString(1, session.xuid());
+            updatePlayersServers.setString(2, Utils.GSON.toJson(ServerManager.getAllServers(session)));
+            updatePlayersServers.executeUpdate();
+        } catch (SQLException exception) {
+            throw new StorageException("Storage save failed", exception);
+        }
+    }
+
+    @Override
+    public List<Server> loadServers(org.geysermc.api.connection.Connection session) {
+        List<Server> servers = new ArrayList<>();
+
+        try (PreparedStatement getPlayersServers = connection.prepareStatement("SELECT servers FROM players WHERE xuid=?")) {
+            getPlayersServers.setString(1, session.xuid());
+            ResultSet rs = getPlayersServers.executeQuery();
+
+            while (rs.next()) {
+                List<Server> loadedServers = Utils.GSON.fromJson(rs.getString("servers"), new TypeToken<>() {
+                });
+                if (loadedServers != null) {
+                    servers.addAll(loadedServers);
+                }
+            }
+        } catch (SQLException exception) {
+            throw new StorageException("Storage read failed",exception);
+        }
+
+        return servers;
+    }
+}
